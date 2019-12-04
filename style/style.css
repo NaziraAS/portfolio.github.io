@@ -1,0 +1,84 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.navbar-expand-lg{
+	box-shadow: 0 2px 5px 1px;
+}
+.jumbotron{
+	margin-top: 25px;
+	box-shadow: 1px 0px 5px rgba(0,0,0,0.5);
+}
+.jumbotron img.foto{
+	border: 5px blur black;
+	box-shadow: 1px 1px 10px rgba(0,0,0,1);
+}
+.jumbotron h2{
+	text-shadow:1px 1px 5px rgba(0,0,0,0.5);
+}
+html{
+	scroll-behavior: smooth;
+}
+img{
+	width: 200px;
+}
+h2{
+	padding-top: 10px;
+}
+.row hr{
+	width: 250px;
+	border-top: 2px solid gray;
+}
+.about{
+	min-height: 350px;
+}
+.about .container .row .kol{
+	opacity: 0;
+	transition: .5s;
+	transform: translate(0,-40px);
+}
+.about .container .row .kol.show{
+	opacity: 1;
+	transform: translate(0,0);
+}
+.introduce .container .row .col-md{
+	font-family: "Times New Roman", Times, serif;
+}
+
+
+.introduce{
+	background-color: #eee;
+	min-height: 350px;
+	margin-top: 10px;
+	padding-top: 10px;
+	box-shadow: 1px 0px 5px rgba(0,0,0,0.5);
+}
+.work-experience{
+	min-height: 500px;
+	padding-top: 10px;
+}
+.footer{
+	height: 50%;
+	width: 100%;
+	background-color: black;
+	color:white;
+
+}
+.image1 img{
+	width: 40px;
+	height: 40px;
+}
+.image1 img.facebook{
+	width: 25px;
+	height: 25px;
+}
+.image1 img.wa{
+	width: 37px;
+	height: 37px;
+}
+.image1 img.email{
+	width: 30px;
+	height: 30px;
+	border-radius:;
+}
+
